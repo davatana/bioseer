@@ -1,0 +1,27 @@
+# bioseer
+
+# Description
+
+# Installation
+To install the latest version of the package:
+
+```{R}
+install.packages("devtools")
+library("devtools")
+devtools::install_github("davatana/bioseer", build_vignettes = TRUE)
+library("bioseer")
+```
+
+To run the shiny App: Under construction
+
+# Overview
+
+
+# Contributions
+David Atanasov is the author of bioseer.
+
+# References
+
+
+# Acknowledgements
+This package was developed as part of an assessment for 2024 BCB410H: Applied Bioinformatics course at the University of Toronto, CANADA. bioseer welcomes issues, enhancement requesets, and other contributions. To submit an issue, use the GitHub issues.
