@@ -1,4 +1,9 @@
-#' Plot the activations resulting from a given feature on the given amino acid, currently just 0 and 1.
+# Purpose: Functions which help with visualizing the activations present
+# Author: David Atanasov
+# Date: November 5 2024
+# Version: 0.0.1
+# Bugs and Issues: None as of November 5 2024
+Coding Style Guide 2024 5
 #' 
 #' @param file_path Path to the CSV file.
 #' @return A ggplot.
