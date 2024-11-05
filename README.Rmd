@@ -1,6 +1,7 @@
 # bioseer
 
 # Description
+bioseer is a package which is meant to help the user visualize the outputs of a spare autoencoder (SAE) interpretability study performed on biological sequence models.
 
 # Installation
 To install the latest version of the package:
