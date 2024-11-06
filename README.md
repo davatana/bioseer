@@ -26,6 +26,10 @@ Other functions to be added are visualization of the protein sequence coming fro
 
 See the vignette called Starter.Rmd for code usage examples for those functions.
 
+```{R}
+browseVignettes("bioseer")
+```
+
 # Contributions
 David Atanasov is the author of bioseer.
 
