@@ -13,6 +13,7 @@ list_csv_files <- function() {
 
   # Using the inbuilt R functions we filter for CSVs simply and return the 
   # value
-  file_list <- list.files(path = "data", pattern = "\\.csv$", full.names = TRUE)
+  file_list <- list.files(path = system.file("extdata", package = "bioseer"), 
+  pattern = "\\.csv$", full.names = TRUE)
   return(file_list)
 }
