@@ -17,3 +17,44 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(bioseer)
 ```
+
+# Preliminaries
+
+First you should install the package before attempting to do anything with it, alongside devtools.
+
+## Installation
+```{R}
+install.packages("devtools")
+library("devtools")
+devtools::install_github("davatana/bioseer", build_vignettes = TRUE)
+library("bioseer")
+```
+
+
+## Loading files
+
+Input files should be one file per feature-input combination such that each line in the file
+is one residue from a sequence of amino acids with the second column being whether or not the feature
+was activated on that portion of the input.
+
+The CSV-formatted files that you wish to analyze can be placed anywhere as the function accepts a file path. 
+Testing is done with the files from the insta/extdata directory. A good first step after loading your files 
+is to check that they are visible to the program. The list_csv_files function can help you with this:
+
+```{R}
+
+
+```
+
+
+# Analysis
+
+To analyze the features elucidated by the SAE, the data from which was loaded into the example files, 
+
+Now that you are ready to analyze the files, look for a visual output broken down by amino acid by doing the following.
+
+```{R}
+
+
+
+```
