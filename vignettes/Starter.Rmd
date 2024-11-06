@@ -37,13 +37,13 @@ Input files should be one file per feature-input combination such that each line
 is one residue from a sequence of amino acids with the second column being whether or not the feature
 was activated on that portion of the input.
 
-The CSV-formatted files that you wish to analyze can be placed anywhere as the function accepts a file path. 
+The CSV-formatted files that you wish to analyze can be placed in extdata.
 Testing is done with the files from the insta/extdata directory. A good first step after loading your files 
 is to check that they are visible to the program. The list_csv_files function can help you with this:
 
 ```{R}
-
-
+output <- list_csv_files()
+print(output)
 ```
 
 
@@ -54,7 +54,6 @@ To analyze the features elucidated by the SAE, the data from which was loaded in
 Now that you are ready to analyze the files, look for a visual output broken down by amino acid by doing the following.
 
 ```{R}
-
-
-
+plot_activations(system.file("extdata", "feature_0_A0A397BXJ4.csv",
+package = "bioseer"))
 ```
