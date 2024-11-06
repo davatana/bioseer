@@ -3,7 +3,8 @@
 # Date: November 5 2024
 # Version: 0.0.1
 # Bugs and Issues: None as of November 5 2024
-#' 
+#' @title plot_activations
+#' @description these are the functions for plotting activations
 #' @param file_path Path to the CSV file.
 #' @return A ggplot.
 #' @import ggplot2

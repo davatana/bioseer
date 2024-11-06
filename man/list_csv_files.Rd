@@ -2,7 +2,8 @@
 % Please edit documentation in R/file_handler.R
 \name{list_csv_files}
 \alias{list_csv_files}
-\title{List all CSV files in the data/ folder, which is where the activation data will be}
+\title{List all CSV files in the data/ folder, which is where the activation data
+will be}
 \usage{
 list_csv_files()
 }
@@ -10,5 +11,6 @@ list_csv_files()
 A list of all the file names
 }
 \description{
-List all CSV files in the data/ folder, which is where the activation data will be
+List all CSV files in the data/ folder, which is where the activation data
+will be
 }
