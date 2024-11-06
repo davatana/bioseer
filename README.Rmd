@@ -20,7 +20,7 @@ The existing functionality for the package includes finding all the files which 
 
 The other currently implemented function is one which sums the presence of activations by each amino acid so you can then see how the given feature is generally reacting to each amino acid within the protein.
 
-![]('inst/extdata/graph_1.png')
+![](./inst/extdata/graph_1.png)
 
 Other functions to be added are visualization of the protein sequence coming from the example to show the degree of activation for each residue independently over the entire protein or the portion which has significant activation on that feature.
 
