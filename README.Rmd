@@ -1,7 +1,7 @@
 # bioseer
 
 # Description
-bioseer is a package which is meant to help the user visualize the outputs of a spare autoencoder (SAE) interpretability study performed on biological sequence models.
+bioseer is a package which is meant to help the user visualize the outputs of a spare autoencoder (SAE) interpretability study performed on biological sequence models. Looking at the distribution of inputs which activate a given feature can help enhance one's understanding of the underlying architecture that is learned from models trying to approximate the biological sequences they're trained on. This extension builds on the prior work which has been done to actually train sparse autoencoders on both large language models and, more recently, biological sequence models like ESM2.
 
 # Installation
 To install the latest version of the package:
@@ -25,6 +25,8 @@ Other functions to be added are visualization of the protein sequence coming fro
 
 # Contributions
 David Atanasov is the author of bioseer.
+
+The example data found in data is taken from Bai (2024) by drawing from the interprot website where specific sequences are displayed alongside features gleaned from the SAE. The files are named based on the feature as listed from the interprot website suffixed with the protein sequence's AlphaFoldDB entry.
 
 # References
 Liam Bai (2024). Interprot, https://github.com/etowahadams/interprot/tree/main
